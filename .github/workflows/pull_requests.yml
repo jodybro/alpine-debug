@@ -17,5 +17,3 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
           tags: PR-${{ github.event.pull_request.number }}
-
-    
